@@ -184,7 +184,7 @@ td {
   background-color: #EAF6F6;
   border-radius: 2rem;
   transform: translate(-50%, -50%) scale(0);
-  box-shadow: 0 2rem 5rem 0 #30e3cb;
+  box-shadow: 0 1rem 3rem 0 #30e3cb;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -217,6 +217,13 @@ td {
 
 .modal-header {
   margin-top: 0;
+}
+
+.modal-text {
+  text-align: left;
+  font-size: 1.2rem;
+  color: #40514E;
+  font-family: 'Merriweather', serif;
 }
 
 @keyframes open {
